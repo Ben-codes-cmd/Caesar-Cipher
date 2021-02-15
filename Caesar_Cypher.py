@@ -1,9 +1,8 @@
 # Ben Jordan
 # 12/24/2020
-
+from string import ascii_lowercase
 # variables for later
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
-            'v', 'w', 'x', 'y', 'z']
+alphabet = list(ascii_lowercase)
 # Retrieve Strings
 file = open('TextDoc.txt', 'r')
 text = file.readlines()
